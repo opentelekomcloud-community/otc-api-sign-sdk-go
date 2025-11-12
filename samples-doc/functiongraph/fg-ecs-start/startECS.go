@@ -6,7 +6,6 @@ import (
 	"io"
 
 	"net/http"
-	"os"
 
 	"github.com/opentelekomcloud-community/otc-functiongraph-go-runtime/go-runtime/go-api/context"
 	"github.com/opentelekomcloud-community/otc-functiongraph-go-runtime/go-runtime/pkg/runtime"
@@ -21,8 +20,7 @@ func ecsStart(payload []byte, ctx context.RuntimeContext) (interface{}, error) {
 		SecurityToken: ctx.GetSecurityToken(),
 	}
 
-	// get project ID from environment variables
-	project_id := os.Getenv("RUNTIME_PROJECT_ID")
+	project_id := ctx.GetProjectID()
 
 	var endpoint = ctx.GetUserData("ECS_ENDPOINT")
 	if endpoint == "" {
