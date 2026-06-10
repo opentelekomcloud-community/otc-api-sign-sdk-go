@@ -25,7 +25,7 @@ Build deployment zip
 ^^^^^^^^^^^^^^^^^^^^^^
 
 To build the deployment zip, execute following command in
-folder: **samples-doc/functiongraph/fg-ecs-stop**
+folder: **samples-doc/functiongraph/fg-ecs-start**
 
 .. code-block:: bash
 

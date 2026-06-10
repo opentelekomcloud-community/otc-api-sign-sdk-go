@@ -7,13 +7,16 @@ Installation
 
 The latest state of the module can be installed directly from the GitHub repository.
 
-Installation using pip:
+Installation using go get:
 ------------------------------
 
 .. code-block:: shell
    :caption: go install
 
    go get -u github.com/opentelekomcloud-community/otc-api-sign-sdk-go@latest
+
+Using go.mod:
+------------------------------
 
 .. code-block:: go
    :caption: go.mod
