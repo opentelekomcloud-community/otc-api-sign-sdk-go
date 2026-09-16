@@ -1,15 +1,6 @@
 # otc-api-sign-sdk-go
 SDK for API request signing for Go.
 
-> [!Note]
-> <pre>
-> ###############################################
->             Work in progress....
->     !! SUBJECT TO CHANGE WITHOUT NOTICE !!
-> ###############################################
-> </pre>
->  
-
 ## Documentation
 
 For documentation see: [otc-api-sign-sdk-go](https://opentelekomcloud-community.github.io/otc-api-sign-sdk-go/)
